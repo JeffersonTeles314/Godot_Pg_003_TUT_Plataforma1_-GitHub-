@@ -1,0 +1,67 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Sprites/Player/Idle0.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Player/Run0.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Player/Jump0.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Player/Run7.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Player/Run1.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Player/Run2.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Player/Run3.png" type="Texture" id=7]
+[ext_resource path="res://Scripts/KinematicBody2D.gd" type="Script" id=8]
+[ext_resource path="res://Sprites/Player/Jump4.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Background/Sky.png" type="Texture" id=10]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Correndo",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Parado",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "Caindo",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "Pulando",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 15.4111
+height = 26.5844
+
+[node name="Jogador" type="KinematicBody2D"]
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Caindo"
+playing = true
+
+[node name="CollisionShape2D_1" type="CollisionShape2D" parent="."]
+position = Vector2( 0.629944, 2.99231 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.1, 0.1 )
+motion_mirroring = Vector2( 640, 640 )
+
+[node name="Sky" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 10 )
+centered = false

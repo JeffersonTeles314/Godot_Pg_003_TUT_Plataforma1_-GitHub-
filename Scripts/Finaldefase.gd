@@ -1,0 +1,11 @@
+extends Area2D
+
+export(String, FILE,"*.tscn") var proximo_mundo
+
+func _physics_process(delta):
+	var corpos = get_overlapping_bodies()
+	
+	for corpo in corpos:
+		if corpo.name == "Jogador":
+			get_tree().change_scene(proximo_mundo)
+	pass
