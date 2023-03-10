@@ -1,8 +1,8 @@
-[gd_scene load_steps=52 format=2]
+[gd_scene load_steps=52 format=3]
 
-[ext_resource path="res://Cenas/Jogador.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Cenas/Finaldefase.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Sprites/Tiles/DirtAutoTile.png" type="Texture2D" id=3]
+[ext_resource type="PackedScene" path="res://Cenas/Outras Coisas/Jogador.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Cenas/Outras Coisas/Finaldefase.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://dwld2cphqbhgi" path="res://Sprites/Tiles/DirtAutoTile.png" id="3"]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
