@@ -2,148 +2,148 @@
 
 [ext_resource path="res://Cenas/Jogador.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Cenas/Finaldefase.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Sprites/Tiles/DirtAutoTile.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Tiles/DirtAutoTile.png" type="Texture2D" id=3]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=5]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=7]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=8]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=9]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=10]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=11]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=12]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=13]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=14]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=15]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=16]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=17]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=18]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=19]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=20]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=21]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=22]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=23]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=24]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=25]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=26]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=27]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=28]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=29]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=30]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=31]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=32]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=33]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=34]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=35]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=36]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=37]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=38]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=39]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=40]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=41]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=42]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=43]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=44]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=45]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=46]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=47]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=48]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="TileSet" id=49]
 0/name = "DirtAutoTile.png 0"
@@ -465,4 +465,4 @@ proximo_mundo = "res://Cenas/Fases/Mundo2.tscn"
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 49 )
 format = 1
-tile_data = PoolIntArray( -131071, 0, 1, -131070, 0, 65536, -131069, 0, 65536, -131068, 0, 65536, -131067, 0, 65536, -131066, 0, 65536, -131065, 0, 65536, -131064, 0, 65536, -131063, 0, 65536, -131062, 0, 65536, -131061, 0, 2, -65536, 0, 1, -65535, 0, 65540, -65534, 0, 196619, -65533, 0, 196619, -65532, 0, 196619, -65531, 0, 196619, -65530, 0, 196619, -65529, 0, 196619, -65528, 0, 196619, -65527, 0, 196619, -65526, 0, 196619, -65525, 0, 65539, -65524, 0, 2, 65534, 0, 1, 65535, 0, 65536, 0, 0, 65540, 1, 0, 196619, 2, 0, 196619, 3, 0, 3, 4, 0, 131072, 5, 0, 131072, 6, 0, 131072, 7, 0, 131072, 8, 0, 131072, 9, 0, 131072, 10, 0, 4, 11, 0, 196619, 12, 0, 65539, 13, 0, 65536, 14, 0, 2, 131067, 0, 1, 131068, 0, 65536, 131069, 0, 65536, 131070, 0, 65540, 131071, 0, 196619, 65536, 0, 3, 65537, 0, 131072, 65538, 0, 131072, 65539, 0, 65538, 65546, 0, 131073, 65547, 0, 196619, 65548, 0, 196619, 65549, 0, 196619, 65550, 0, 131074, 196603, 0, 131073, 196604, 0, 196619, 196605, 0, 196619, 196606, 0, 196619, 196607, 0, 3, 131072, 0, 65538, 131082, 0, 131073, 131083, 0, 196619, 131084, 0, 196619, 131085, 0, 196619, 131086, 0, 131074, 262139, 0, 131073, 262140, 0, 196619, 262141, 0, 196619, 262142, 0, 196619, 262143, 0, 131074, 196618, 0, 131073, 196619, 0, 196619, 196620, 0, 196619, 196621, 0, 196619, 196622, 0, 131074, 327675, 0, 131073, 327676, 0, 196619, 327677, 0, 196619, 327678, 0, 196619, 327679, 0, 131074, 262150, 0, 1, 262151, 0, 65536, 262152, 0, 65536, 262153, 0, 65536, 262154, 0, 65540, 262155, 0, 196619, 262156, 0, 196619, 262157, 0, 3, 262158, 0, 65538, 393211, 0, 131073, 393212, 0, 196619, 393213, 0, 196619, 393214, 0, 196619, 393215, 0, 131074, 327682, 0, 1, 327683, 0, 65536, 327684, 0, 65536, 327685, 0, 65536, 327686, 0, 65540, 327687, 0, 196619, 327688, 0, 196619, 327689, 0, 196619, 327690, 0, 196619, 327691, 0, 3, 327692, 0, 131072, 327693, 0, 65538, 458747, 0, 65537, 458748, 0, 131072, 458749, 0, 131072, 458750, 0, 4, 458751, 0, 65539, 393216, 0, 65536, 393217, 0, 65536, 393218, 0, 65540, 393219, 0, 196619, 393220, 0, 196619, 393221, 0, 196619, 393222, 0, 196619, 393223, 0, 196619, 393224, 0, 196619, 393225, 0, 196619, 393226, 0, 3, 393227, 0, 65538, 524286, 0, 65537, 524287, 0, 131072, 458752, 0, 131072, 458753, 0, 131072, 458754, 0, 131072, 458755, 0, 131072, 458756, 0, 131072, 458757, 0, 131072, 458758, 0, 131072, 458759, 0, 131072, 458760, 0, 131072, 458761, 0, 131072, 458762, 0, 65538 )
+tile_data = PackedInt32Array( -131071, 0, 1, -131070, 0, 65536, -131069, 0, 65536, -131068, 0, 65536, -131067, 0, 65536, -131066, 0, 65536, -131065, 0, 65536, -131064, 0, 65536, -131063, 0, 65536, -131062, 0, 65536, -131061, 0, 2, -65536, 0, 1, -65535, 0, 65540, -65534, 0, 196619, -65533, 0, 196619, -65532, 0, 196619, -65531, 0, 196619, -65530, 0, 196619, -65529, 0, 196619, -65528, 0, 196619, -65527, 0, 196619, -65526, 0, 196619, -65525, 0, 65539, -65524, 0, 2, 65534, 0, 1, 65535, 0, 65536, 0, 0, 65540, 1, 0, 196619, 2, 0, 196619, 3, 0, 3, 4, 0, 131072, 5, 0, 131072, 6, 0, 131072, 7, 0, 131072, 8, 0, 131072, 9, 0, 131072, 10, 0, 4, 11, 0, 196619, 12, 0, 65539, 13, 0, 65536, 14, 0, 2, 131067, 0, 1, 131068, 0, 65536, 131069, 0, 65536, 131070, 0, 65540, 131071, 0, 196619, 65536, 0, 3, 65537, 0, 131072, 65538, 0, 131072, 65539, 0, 65538, 65546, 0, 131073, 65547, 0, 196619, 65548, 0, 196619, 65549, 0, 196619, 65550, 0, 131074, 196603, 0, 131073, 196604, 0, 196619, 196605, 0, 196619, 196606, 0, 196619, 196607, 0, 3, 131072, 0, 65538, 131082, 0, 131073, 131083, 0, 196619, 131084, 0, 196619, 131085, 0, 196619, 131086, 0, 131074, 262139, 0, 131073, 262140, 0, 196619, 262141, 0, 196619, 262142, 0, 196619, 262143, 0, 131074, 196618, 0, 131073, 196619, 0, 196619, 196620, 0, 196619, 196621, 0, 196619, 196622, 0, 131074, 327675, 0, 131073, 327676, 0, 196619, 327677, 0, 196619, 327678, 0, 196619, 327679, 0, 131074, 262150, 0, 1, 262151, 0, 65536, 262152, 0, 65536, 262153, 0, 65536, 262154, 0, 65540, 262155, 0, 196619, 262156, 0, 196619, 262157, 0, 3, 262158, 0, 65538, 393211, 0, 131073, 393212, 0, 196619, 393213, 0, 196619, 393214, 0, 196619, 393215, 0, 131074, 327682, 0, 1, 327683, 0, 65536, 327684, 0, 65536, 327685, 0, 65536, 327686, 0, 65540, 327687, 0, 196619, 327688, 0, 196619, 327689, 0, 196619, 327690, 0, 196619, 327691, 0, 3, 327692, 0, 131072, 327693, 0, 65538, 458747, 0, 65537, 458748, 0, 131072, 458749, 0, 131072, 458750, 0, 4, 458751, 0, 65539, 393216, 0, 65536, 393217, 0, 65536, 393218, 0, 65540, 393219, 0, 196619, 393220, 0, 196619, 393221, 0, 196619, 393222, 0, 196619, 393223, 0, 196619, 393224, 0, 196619, 393225, 0, 196619, 393226, 0, 3, 393227, 0, 65538, 524286, 0, 65537, 524287, 0, 131072, 458752, 0, 131072, 458753, 0, 131072, 458754, 0, 131072, 458755, 0, 131072, 458756, 0, 131072, 458757, 0, 131072, 458758, 0, 131072, 458759, 0, 131072, 458760, 0, 131072, 458761, 0, 131072, 458762, 0, 65538 )

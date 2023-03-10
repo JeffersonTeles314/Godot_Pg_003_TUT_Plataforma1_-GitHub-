@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Sprites/Tiles/DirtAutoTile.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Tiles/DirtAutoTile.png" type="Texture2D" id=1]
 [ext_resource path="res://Cenas/Jogador.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Cenas/Finaldefase.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PackedVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="TileSet" id=1]
 0/name = "DirtAutoTile.png 0"
@@ -327,4 +327,4 @@ proximo_mundo = "res://Cenas/Fases/Mundo1.tscn"
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 1 )
 format = 1
-tile_data = PoolIntArray( 131079, 0, 1, 131080, 0, 65536, 131081, 0, 2, 196611, 0, 1, 196612, 0, 65536, 196613, 0, 2, 196615, 0, 131073, 196616, 0, 196619, 196617, 0, 131074, 262145, 0, 5, 262147, 0, 131073, 262148, 0, 196619, 262149, 0, 131074, 262151, 0, 131073, 262152, 0, 196619, 262153, 0, 131074, 327680, 0, 196608, 327681, 0, 196611, 327682, 0, 196609, 327683, 0, 65544, 327684, 0, 131072, 327685, 0, 65547, 327686, 0, 196609, 327687, 0, 65544, 327688, 0, 131072, 327689, 0, 65538 )
+tile_data = PackedInt32Array( 131079, 0, 1, 131080, 0, 65536, 131081, 0, 2, 196611, 0, 1, 196612, 0, 65536, 196613, 0, 2, 196615, 0, 131073, 196616, 0, 196619, 196617, 0, 131074, 262145, 0, 5, 262147, 0, 131073, 262148, 0, 196619, 262149, 0, 131074, 262151, 0, 131073, 262152, 0, 196619, 262153, 0, 131074, 327680, 0, 196608, 327681, 0, 196611, 327682, 0, 196609, 327683, 0, 65544, 327684, 0, 131072, 327685, 0, 65547, 327686, 0, 196609, 327687, 0, 65544, 327688, 0, 131072, 327689, 0, 65538 )

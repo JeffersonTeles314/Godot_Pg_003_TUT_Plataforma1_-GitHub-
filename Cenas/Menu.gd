@@ -2,7 +2,7 @@ extends Control
 
 
 func _on_Comear_pressed():
-	get_tree().change_scene("res://Cenas/Fases/Mundo1.tscn")
+	get_tree().change_scene_to_file("res://Cenas/Fases/Mundo1.tscn")
 	pass # Replace with function body.
 
 

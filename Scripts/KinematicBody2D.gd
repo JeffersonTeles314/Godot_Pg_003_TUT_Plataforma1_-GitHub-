@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 const cima = Vector2(0, -1)
 const gravidade = 10
@@ -15,22 +15,22 @@ func _physics_process(delta):
 	#=-=-=Codigo Mov.Direita=-=--=
 	if Input.is_action_pressed("ui_right"):
 		movimento.x = min(movimento.x + Aceleracao , Velocidade_Max)
-		$Sprite.flip_h = false
+		$Sprite2D.flip_h = false
 		if  is_on_floor() == true:
-			$Sprite.play("Correndo")
+			$Sprite2D.play("Correndo")
 	#=-=-=Codigo Mov.Direita=-=--=
 	
 	#=-=-=Codigo Mov.Esquerda=-=-=
 	elif Input.is_action_pressed("ui_left"):
 		movimento.x = max(movimento.x - Aceleracao , -Velocidade_Max)
-		$Sprite.flip_h = true
+		$Sprite2D.flip_h = true
 		if  is_on_floor() == true:
-			$Sprite.play("Correndo")
+			$Sprite2D.play("Correndo")
 	#=-=-=Codigo Mov.Esquerda=-=-=
 	
 	#=-=-=Codigo Parado=-=-=
 	else:
-		$Sprite.play("Parado")
+		$Sprite2D.play("Parado")
 	#=-=-=Codigo Parado=-=-=
 	
 	#=-=-=Código Atrito=-=-=
@@ -43,14 +43,17 @@ func _physics_process(delta):
 	#=-=-=Código de Pulo=-=-=
 	if is_on_floor() and Input.is_action_pressed("ui_up"):
 		movimento.y = pulo
-		get_node("Sprite").play("Pulando")
+		get_node("Sprite2D").play("Pulando")
 	if is_on_floor() == false and movimento.y > 0:
-		get_node("Sprite").play("Caindo")
+		get_node("Sprite2D").play("Caindo")
 	elif is_on_floor() == false and movimento.y < 0:
-		get_node("Sprite").play("Pulando")
+		get_node("Sprite2D").play("Pulando")
 	#=-=-=Código de Pulo=-=-=
 	
 	
 	
-	movimento = move_and_slide(movimento, cima)
+	set_velocity(movimento)
+	set_up_direction(cima)
+	move_and_slide()
+	movimento = velocity
 	pass
