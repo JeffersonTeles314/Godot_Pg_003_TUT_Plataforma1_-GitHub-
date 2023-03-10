@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=4 format=3]
 
-[ext_resource path="res://icon.png" type="Texture2D" id=1]
-[ext_resource path="res://Scripts/Finaldefase.gd" type="Script" id=2]
+[ext_resource type="Texture2D" uid="uid://co87nb42cpjx8" path="res://Sprites/icon.png" id="1"]
+[ext_resource type="Script" path="res://Scripts/Finaldefase.gd" id="2"]
 
 [sub_resource type="RectangleShape2D" id=1]
 size = Vector2( 32, 32 )
