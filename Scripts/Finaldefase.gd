@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var proximo_mundo # (String, FILE,"*.tscn")
+@export_file("*.tscn") var proximo_mundo
 
 func _physics_process(delta):
 	var corpos = get_overlapping_bodies()

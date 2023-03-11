@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvneefpmwfgkx"]
+
+[ext_resource type="Texture2D" uid="uid://dwld2cphqbhgi" path="res://Sprites/Tiles/DirtAutoTile.png" id="1_hxs1d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lnadn"]
+size = Vector2(32, 32)
+
+[node name="Tileset" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hxs1d")
+region_enabled = true
+region_rect = Rect2(96, 0, 32, 32)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D"]
+shape = SubResource("RectangleShape2D_lnadn")

@@ -6,7 +6,7 @@ const Aceleracao = 50
 const pulo = -400
 const Velocidade_Max = 200
 var movimento = Vector2()
-func _physics_process(delta):
+func _physics_process(_delta):
 	
 	#=-=-=Código Gravidade=-=-=
 	movimento.y += gravidade
@@ -35,9 +35,9 @@ func _physics_process(delta):
 	
 	#=-=-=Código Atrito=-=-=
 	if is_on_floor():
-		movimento.x = lerp(movimento.x, 0, 0.2)
+		movimento.x = lerp(movimento.x, 0.0, 0.2)
 	else:
-		movimento.x = lerp(movimento.x, 0, 0.005)
+		movimento.x = lerp(movimento.x, 0.0, 0.005)
 	#=-=-=Código Atrito=-=-=
 	
 	#=-=-=Código de Pulo=-=-=

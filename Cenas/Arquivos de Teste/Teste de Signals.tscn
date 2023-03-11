@@ -1,3 +1,22 @@
-[gd_scene format=3 uid="uid://ddae7kobyykyq"]
+[gd_scene load_steps=4 format=3 uid="uid://ddae7kobyykyq"]
+
+[ext_resource type="Texture2D" uid="uid://co87nb42cpjx8" path="res://Sprites/icon.png" id="1_ogo7w"]
+[ext_resource type="Script" path="res://Cenas/Arquivos de Teste/Sprite2D.gd" id="2_od2y7"]
+[ext_resource type="Script" path="res://Cenas/Arquivos de Teste/Button.gd" id="3_r7d4a"]
 
 [node name="Teste de Signals" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(267, 146)
+texture = ExtResource("1_ogo7w")
+script = ExtResource("2_od2y7")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 18.0
+offset_top = 9.0
+offset_right = 144.0
+offset_bottom = 46.0
+text = "Teste"
+script = ExtResource("3_r7d4a")
+
+[connection signal="pressed" from="Button" to="Sprite2D" method="_on_button_pressed"]
