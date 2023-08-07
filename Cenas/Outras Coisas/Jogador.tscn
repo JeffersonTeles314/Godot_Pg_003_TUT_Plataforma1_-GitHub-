@@ -59,8 +59,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="2"]
-radius = 13.2922
-height = 26.5844
+radius = 13.0077
+height = 62.0154
 
 [node name="Jogador" type="CharacterBody2D"]
 script = ExtResource("8")
@@ -74,6 +74,8 @@ position = Vector2(0.629944, 2.99231)
 shape = SubResource("2")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+limit_smoothed = true
+position_smoothing_enabled = true
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -84,3 +86,7 @@ motion_mirroring = Vector2(640, 640)
 [node name="Sky" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture = ExtResource("10")
 centered = false
+
+[node name="Coyote_Jumping_Timer" type="Timer" parent="."]
+wait_time = 0.08
+one_shot = true
